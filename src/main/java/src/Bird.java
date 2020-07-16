@@ -1,11 +1,10 @@
 /*
- 4.7 Exercise - Question 5
+ 4.7 Exercise - Question 6
  */
 package src;
 
 public class Bird {
-    Bird bird = new Bird(); // causes an infinite loop
-
+    Bird bird;
     String name;
     int age;
     static float height;

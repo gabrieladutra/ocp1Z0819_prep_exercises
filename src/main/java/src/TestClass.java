@@ -1,5 +1,5 @@
 /*
- 4.7 Exercise - Question 3
+ 4.7 Exercise - Question 4
  */
 package src;
 
@@ -9,16 +9,8 @@ public class TestClass {
 
     public static void main(String[] args) {
         Bird secondBird = new Bird();
-        secondBird.name = "Woodpecker";
-        secondBird.age = 2;
-
-        bird.name = secondBird.name;
-        bird.age = secondBird.age;
-
-        System.out.println(bird.name);
-        System.out.println(bird.age);
-        System.out.println(secondBird.name);
-        System.out.println(secondBird.age);
+        bird.fly();
+        secondBird.fly();
 
     }
 }

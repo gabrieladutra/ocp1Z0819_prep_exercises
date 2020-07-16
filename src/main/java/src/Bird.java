@@ -1,5 +1,5 @@
 /*
- 4.7 Exercise - Question 1
+ 4.7 Exercise - Question 4
  */
 package src;
 
@@ -11,7 +11,7 @@ public class Bird {
     static boolean isSinger;
 
     public void fly(){
-
+        System.out.println(name + " " + age + " " + height + " " + weight + " " + isSinger);
     }
 
 }

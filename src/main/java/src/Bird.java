@@ -11,8 +11,8 @@ public class Bird {
     static double weight;
     static boolean isSinger;
 
-    public void fly(){
-        System.out.println(name + " " + age + " " + height + " " + weight + " " + isSinger);
+    public int fly(Float distance){
+        return distance.intValue();
     }
 
 }

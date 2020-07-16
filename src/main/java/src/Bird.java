@@ -1,5 +1,5 @@
 /*
- 4.7 Exercise - Question 6
+ 4.7 Exercise - Question 7
  */
 package src;
 
@@ -11,8 +11,10 @@ public class Bird {
     static double weight;
     static boolean isSinger;
 
-    public int fly(Float distance){
-        return distance.intValue();
-    }
 
+    public int fly(Float distance) {
+        return distance.intValue();
+
+
+    }
 }

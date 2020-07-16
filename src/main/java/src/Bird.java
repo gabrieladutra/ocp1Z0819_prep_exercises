@@ -1,5 +1,5 @@
 /*
- 4.7 Exercise - Question 7
+ 4.7 Exercise - Question 8
  */
 package src;
 
@@ -12,9 +12,16 @@ public class Bird {
     static boolean isSinger;
 
 
-    public int fly(Float distance) {
-        return distance.intValue();
+    public float fly(Float distance) {
+        float f = 1;
+        return f;
 
+    /* String / float
+
+    public float fly(Float distance){
+    float f = Float.valueOf("10");
+       return f;
+    }*/
 
     }
 }

@@ -8,20 +8,18 @@ public class Bird {
     String name;
     int age;
     static float height;
-    static double weight;
+    static double weightt;
     static boolean isSinger;
-
 
     public float fly(Float distance) {
         float f = 1;
         return f;
 
-    /* String / float
-
-    public float fly(Float distance){
-    float f = Float.valueOf("10");
-       return f;
-    }*/
+        /*
+         * String / float
+         * 
+         * public float fly(Float distance){ float f = Float.valueOf("10"); return f; }
+         */
 
     }
 }

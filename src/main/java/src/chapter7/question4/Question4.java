@@ -1,6 +1,6 @@
 package src.chapter7.question4;
 
-public class Main {
+public class Question4 {
     public static void getIfIndentation() {
         int a = 0, b = 0, c = 0, d = 0;
         boolean flag = false;

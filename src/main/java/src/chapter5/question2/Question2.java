@@ -2,6 +2,9 @@ package src.chapter5.question2;
 
 public class Question2 {
     public static String concatWithX(String string) {
+        if (string.length() < 4) {
+            return string;
+        }
         String str = "";
         while (str.length() < string.length() - 4) {
             str += "X";

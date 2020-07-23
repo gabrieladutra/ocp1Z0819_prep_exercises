@@ -11,9 +11,10 @@ public class Question4Test {
         String[] array = {"a", "b", "c", "d"};
         assertEquals("abcd", Question4.concatStringsOfArray(array));
     }
+
     @Test
     public void concatStringsOfArray_whenStringIsNull_shouldReturnConcatStrings() {
-        String[] array = {"a",null,"c"};
+        String[] array = {"a", null, "c"};
         assertEquals("ac", Question4.concatStringsOfArray(array));
     }
 

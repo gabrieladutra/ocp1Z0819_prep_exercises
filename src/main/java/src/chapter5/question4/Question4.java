@@ -6,8 +6,8 @@ public class Question4 {
         if (strArray == null) {
             return null;
         }
-        var currentString = strArray[0];
-        for (int i = 1; i < strArray.length; i++) {
+        var currentString = "";
+        for (int i = 0; i < strArray.length; i++) {
             if (strArray[i] != null) {
                 currentString += strArray[i];
             }

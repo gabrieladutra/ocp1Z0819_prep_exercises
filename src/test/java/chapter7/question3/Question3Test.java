@@ -13,7 +13,6 @@ public class Question3Test {
     @Test
     public void getTags_whenNumberIsDivisibleBy2_shouldReturnEven() {
         var n = 2;
-        var string = "even";
         var newNumber = new NumberDivisibility(n);
         assertTrue(newNumber.getTags().contains("even"));
     }
@@ -36,21 +35,14 @@ public class Question3Test {
     public void getTags_whenNumberIsDivisibleBy2and3_shouldReturn23() {
         var n = 6;
         var newNumber = new NumberDivisibility(n);
-        ArrayList<String> stringArray = new ArrayList<>();
-        stringArray.add("even");
-        stringArray.add("23");
-        assertEquals(stringArray, newNumber.getTags());
+        assertTrue(newNumber.getTags().contains("23"));
     }
 
     @Test
     public void getTags_whenNumberIsDivisibleBy23and5_shouldReturn235() {
         var n = 180;
         var newNumber = new NumberDivisibility(n);
-        ArrayList<String> stringArray = new ArrayList<>();
-        stringArray.add("even");
-        stringArray.add("23");
-        stringArray.add("235");
-        assertEquals(stringArray, newNumber.getTags());
+        assertTrue(newNumber.getTags().contains("235"));
     }
 
     @Test

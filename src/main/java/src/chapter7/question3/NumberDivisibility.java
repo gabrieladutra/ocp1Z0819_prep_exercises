@@ -19,14 +19,15 @@ public class NumberDivisibility {
         ArrayList<String> strArray = new ArrayList<>();
         if (isDivisibleBy2) {
             strArray.add("even");
-            if (isDivisibleBy2 && isDivisibleBy3) {
+            if (isDivisibleBy3) {
                 strArray.add("23");
             }
-            if (isDivisibleBy2 && isDivisibleBy3 && isDivisibleBy5) {
+            if (isDivisibleBy3 && isDivisibleBy5) {
                 strArray.add("235");
             }
         } else if (isDivisibleBy3) {
             strArray.add("three");
+
         } else if (isDivisibleBy5) {
             strArray.add("five");
         } else {
@@ -36,7 +37,7 @@ public class NumberDivisibility {
         return strArray;
     }
 
-    public void printTags(NumberDivisibility n) {
+    public static void printTags(NumberDivisibility n) {
         System.out.println(n.getTags());
     }
 

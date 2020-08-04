@@ -1,4 +1,4 @@
-package chapter7.question1;
+package chapter7;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

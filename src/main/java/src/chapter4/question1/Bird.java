@@ -1,7 +1,7 @@
 /*
  4.7 Exercise - Question 8
  */
-package src;
+package src.chapter4.question1;
 
 public class Bird {
     Bird bird;

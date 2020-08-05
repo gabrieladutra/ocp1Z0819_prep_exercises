@@ -1,4 +1,4 @@
-package chapter7.question3;
+package chapter7;
 
 import org.junit.jupiter.api.Test;
 import src.chapter7.question3.NumberDivisibility;

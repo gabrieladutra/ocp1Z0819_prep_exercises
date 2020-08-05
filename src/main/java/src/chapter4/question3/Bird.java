@@ -1,7 +1,4 @@
-/*
- 4.7 Exercise - Question 8
- */
-package src.chapter4.question1;
+package src.chapter4.question3;
 
 public class Bird {
     String name;
@@ -11,8 +8,7 @@ public class Bird {
     static double weight;
 
 
-    public void fly(){
+    public void fly() {
 
     }
-
 }

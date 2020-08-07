@@ -13,7 +13,6 @@ public class Question3Test {
     @Test
     public void getTags_whenNumberIsDivisibleBy2_shouldReturnEven() {
         var n = 2;
-        var string = "even";
         var newNumber = new NumberDivisibility(n);
         assertTrue(newNumber.getTags().contains("even"));
     }

@@ -6,13 +6,13 @@ public class Question4 {
         if (strArray == null) {
             return null;
         }
-        var currentString = "";
+        StringBuilder currentString = new StringBuilder();
         for (int i = 0; i < strArray.length; i++) {
             if (strArray[i] != null) {
-                currentString += strArray[i];
+                currentString.append(strArray[i]);
             }
         }
-        return currentString;
+        return currentString.toString();
     }
 
 

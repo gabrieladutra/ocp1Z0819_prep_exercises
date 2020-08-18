@@ -5,9 +5,9 @@ public class Question3 {
         if (string.length() < 4) {
             return string.toString();
         }
-        String str = "";
+        StringBuilder str = new StringBuilder();
         while (str.length() < string.length() - 4) {
-            str += "X";
+            str.append("X");
         }
         String last = string.substring(string.length() - 4);
         return str + last;

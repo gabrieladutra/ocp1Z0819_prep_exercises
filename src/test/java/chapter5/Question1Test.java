@@ -13,7 +13,6 @@ public class Question1Test {
 
     @Test
     public void getInternedStringBuilder_whenAStringIsNotInterned_shouldReturnFalse() {
-        var str = new StringBuilder("hello");
-        assertFalse(Question1.isStringBuilderSubstringInterned());
+        assertFalse(Question1.isStringBuilderSubstringInterned("hello"));
     }
 }

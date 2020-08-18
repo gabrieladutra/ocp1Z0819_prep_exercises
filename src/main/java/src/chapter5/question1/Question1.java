@@ -5,10 +5,10 @@ public class Question1 {
         return string == string.substring(0);
     }
 
-    public static boolean isStringBuilderSubstringInterned() {
+    public static boolean isStringBuilderSubstringInterned(String maybeInternedString) {
         var internedString = "hello";
         var stringBuilder = new StringBuilder(internedString);
-        var maybeInternedString = stringBuilder.substring(0);
+        maybeInternedString = stringBuilder.substring(0);
         return maybeInternedString == internedString;
     }
 }

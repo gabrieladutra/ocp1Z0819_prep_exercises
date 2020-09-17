@@ -1,4 +1,4 @@
-package src.chapter9.question1;
+package src.chapter9;
 
 public class Question1 {
     public static boolean[] getBooleanArray (int capacity){

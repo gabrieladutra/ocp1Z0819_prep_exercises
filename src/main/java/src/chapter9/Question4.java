@@ -1,4 +1,4 @@
-package src.chapter9.question4;
+package src.chapter9;
 
 public class Question4 {
   public static void printStringLength(String[][] arrayOfString) {
@@ -7,5 +7,6 @@ public class Question4 {
         System.out.println(j.length());
       }
     }
+    System.out.println(arrayOfString.length);
   }
 }

@@ -1,7 +1,7 @@
 package chapter9;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import static src.chapter9.question1.Question1.*;
+import static src.chapter9.Question1.*;
 public class Question1Test {
     @Test
     public void getBooleanArray_shouldReturnNewArrayOfBooleans(){

@@ -1,4 +1,4 @@
-package src.chapter9.question2;
+package src.chapter9;
 
 import java.util.Arrays;
 

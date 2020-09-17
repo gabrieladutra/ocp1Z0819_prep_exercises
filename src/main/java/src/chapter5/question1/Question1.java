@@ -1,8 +1,8 @@
 package src.chapter5.question1;
 
 public class Question1 {
-    public static boolean isInternedString(String string) {
-        return string == string.substring(0);
+    public static boolean isInternedString(final String string) {
+        return string.equals(string.substring(0));
     }
 
     public static boolean isStringBuilderSubstringInterned() {

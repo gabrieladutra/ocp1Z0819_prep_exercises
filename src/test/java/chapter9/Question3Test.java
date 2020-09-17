@@ -3,7 +3,7 @@ package chapter9;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static src.chapter9.question3.question3.*;
+import static src.chapter9.Question3.*;
 
 public class Question3Test {
   @Test

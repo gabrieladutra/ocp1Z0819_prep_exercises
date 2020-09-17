@@ -5,10 +5,15 @@ package src.chapter4.question1;
 
 public class Bird {
     String name;
-    int age;
-    boolean isSinger;
-    static float height;
-    static double weight;
+    private final int age;
+    private final boolean isSinger;
+    private static float height;
+    private static double weight;
+
+    public Bird(int age, boolean isSinger) {
+        this.age = age;
+        this.isSinger = isSinger;
+    }
 
 
     public void fly(){

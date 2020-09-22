@@ -16,6 +16,7 @@ public class Question3Test {
         var newNumber = new NumberDivisibility(n);
         assertTrue(newNumber.getTags().contains("even"));
     }
+    
 
     @Test
     public void getTags_whenNumberIsDivisibleBy3_shouldReturnThree() {

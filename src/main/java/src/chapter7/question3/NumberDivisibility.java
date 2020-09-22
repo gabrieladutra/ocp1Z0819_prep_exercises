@@ -33,7 +33,6 @@ public class NumberDivisibility {
         } else {
             strArray.add("unknown");
         }
-
         return strArray;
     }
 

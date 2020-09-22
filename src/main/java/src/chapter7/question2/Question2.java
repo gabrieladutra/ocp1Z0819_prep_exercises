@@ -4,7 +4,7 @@ public class Question2 {
     public static int sumNumbersUpTo(int number) {
         final int min = 0;
         final int max = 5;
-        if (number < min  || number > max)
+        if (number < min || number > max)
             throw new OutOfRangeException(min, max, number);
         switch (number) {
             case 5:

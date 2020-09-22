@@ -12,6 +12,7 @@ public class Question2Test {
         assertThrows(OutOfRangeException.class, () -> Question2.sumNumbersUpTo(-1));
     }
 
+
     @Test
     public void sumNumbersUpTo_whenNumberIsOutOfRange_shouldThrowAException() {
         assertThrows(OutOfRangeException.class, () -> Question2.sumNumbersUpTo(6));

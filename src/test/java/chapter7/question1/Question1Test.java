@@ -13,6 +13,7 @@ public class Question1Test {
         assertTrue(Question1.isEven(10));
     }
 
+
     @Test
     public void isEven_whenANumberIsNotEven_shouldReturnFalse() {
         assertFalse(Question1.isEven(11));

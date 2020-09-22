@@ -2,14 +2,16 @@ package src.chapter5.question4;
 
 public class Question4 {
     public static String concatStringsOfArray(String[] strArray) {
-
         if (strArray == null) {
             return null;
         }
+        if (strArray.length <= 0) {
+            throw new IllegalArgumentException("The  array of parameter is empty");
+        }
         StringBuilder currentString = new StringBuilder();
-        for (int i = 0; i < strArray.length; i++) {
-            if (strArray[i] != null) {
-                currentString.append(strArray[i]);
+        for (String s : strArray) {
+            if (s != null) {
+                currentString.append(s);
             }
         }
         return currentString.toString();

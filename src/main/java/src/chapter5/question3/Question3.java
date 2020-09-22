@@ -1,7 +1,7 @@
 package src.chapter5.question3;
 
 public class Question3 {
-    public static String replaceWithX(StringBuilder string) {
+    public static String appendWithX(StringBuilder string) {
         if (string.length() < 4) {
             return string.toString();
         }

@@ -33,3 +33,4 @@ proguard/
 .gradle/
 build/
 bin/
+src/main/java/src/Notes.java
